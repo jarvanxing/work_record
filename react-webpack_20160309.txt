@@ -1,1 +1,37 @@
-###
+虚拟 DOM，组件化，单向数据流
+
+工具
+
+es6
+
+无状态组件
+
+生命周期
+
+jsx
+
+生态环境仍然在成长中，坑不少
+
+Server 端渲染很美，至今没看见哪个规模级的产品用到
+
+npm scripts
+
+在shouldComponentUpdate中优化组件减少reRender
+
+propTypes, defaultProps不要懒的去写，别人通过你的propTypes很容易理解组件，也容易debug
+
+在store和action中不要有dom操作或者访问window.属性，让store和action中的逻辑只与数据打交道，好处：测试，服务器端渲染
+
+ context虽然没有官方文档，但还是很好用的
+ 
+ code split
+ 
+ 高阶组件
+ 
+ 热重载
+ 
+ postcss
+ 
+ svg icon
+ 
+ 
